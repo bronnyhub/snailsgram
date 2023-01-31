@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap');
+
 body {
   margin:0;
   background-color: #34b474;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar {
@@ -27,13 +31,21 @@ body {
 .snail-logo {
   display:flex;
   height: 100px; 
-  margin-top:23px;
+  margin-top:15px;
   margin-left:10px;
+}
+
+.btn {
+  border: none;
+  margin-left:80px;
+  margin-top:15px;
+  font-size: 25px;
+  color: #42c282;
+  font-weight:600;
 }
 
 .gallery {
   display: inline-block;
-  position:relative;
   justify-content: space-evenly, center;
 }
 
