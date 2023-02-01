@@ -4,17 +4,20 @@ function App() {
   return (
     <div className="App">
      <div className="navbar">
+      <div className='main-logo'>
       <img src='snail.png' className="snail-logo" alt='snails-logo'></img>
       <p className='text'>snailsGram</p>
-      <button className='btn'>MAIN</button>
-      <button className='btn'>BACKGROUND</button>
-      <button className='btn'>CONTACT</button>
+      </div>
+      <p className='text2'>Let's find some snails!</p>
+      <button className='btn'>
+        <a href='https://github.com/bronnyhub' className='bronnyhub' targer="_blank">@bronnyhub</a>
+      </button>
      </div>
 
-    <div className='gallery'>
-      <img src='snail1.jpg' className='snails' alt='snails'></img>
-      <img src='snail2.jpg' className='snails' alt='snails'></img>
-      <img src='snail3.jpg' className='snails' alt='snails'></img>
+    <div className='galeria'>
+      <button className='slimaki sl1'></button>
+      <button className='slimaki sl2'></button>
+      <button className='slimaki sl3'></button>
     </div>
 
     </div>
